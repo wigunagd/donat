@@ -1,0 +1,18 @@
+/* 
+    TEXT STYLING :
+    1. LINE HEIGHT -> px, em, rem, dll
+    2. LETTER SPACING ->
+    3. WORD SPACING ->
+    4. TEXT TRANSFORM -> none, capitalize, uppercase, lowercase.
+    5. TEXT DECORATION -> none, underline, overline, line-through
+    6. TEXT ALIGN -> left, right, center, justify
+*/
+
+p {
+  line-height: 50px;
+  letter-spacing: 2px;
+  word-spacing: 30px;
+  text-transform: capitalize;
+  text-decoration: line-through;
+  text-align: justify;
+}

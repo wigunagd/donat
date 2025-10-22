@@ -1,0 +1,66 @@
+/* 1. ELEMENT SELECTOR */
+p {
+  color: red;
+}
+
+/* 2. CLASS SELECTOR (.) */
+.submit {
+  background-color: red;
+}
+
+/* 3. ID SELECTOR (#) */
+#inputData {
+  background-color: blue;
+  color: white;
+}
+
+/* 4. GROUPING SELECTOR (,) */
+i,
+b,
+u {
+  color: green;
+}
+
+/* 5. ATTRIBUTE SELECTOR */
+a[href] {
+  color: red;
+}
+input[type="text"] {
+  background-color: red;
+}
+
+/*  6. DESCENDANT SELECTOR */
+div.descendant p {
+  color: blue;
+}
+
+/*  7. CHILD SELECTOR (>) */
+div.child > p {
+  color: aqua;
+  background-color: black;
+}
+
+/* 8. ADJACENT SIBLING SELECTOR (+) */
+div.adjacent h1 + p {
+  background-color: yellow;
+}
+
+/* 9. GENERAL SIBLING SELECTOR (~) */
+div.general h1 ~ p {
+  background-color: brown;
+}
+
+/*  10. UNIVERSAL SELECTOR (*) */
+* {
+  /* background-color: black; */
+}
+
+/* 11. PSEUDO-CLASS SELECTOR */
+button.pseudo:hover {
+  background-color: red;
+}
+
+/* 12. PSEUDO-ELEMENT SELECTOR */
+h4::before {
+  content: "❌ ";
+}

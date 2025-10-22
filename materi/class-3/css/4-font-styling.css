@@ -1,0 +1,22 @@
+/* 
+    FONT STYLING : 
+    1. FONT WEIGHT -> (100 - 900)
+    2. FONT STYLING -> Oblique, Italic
+    3. FONT FAMILY -> Mengatur jenis font
+    4. FONT SIZE -> px, em, rem, %, pt, dll.
+*/
+
+h1 {
+  font-weight: lighter;
+  font-style: bolder;
+  font-family: "Poppins", "Sora";
+  font-size: 100px;
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.sora {
+  font-family: "Sora";
+}

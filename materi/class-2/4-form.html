@@ -6,15 +6,25 @@
     <title>Form</title>
   </head>
   <body>
-    <form action="/submit" method="POST">
-      <label for="name">Nama:</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        placeholder="Masukkan nama lengkap"
-      />
-      <button type="submit">Kirim</button>
+    <form action="/register" method="POST">
+      <h2>Formulir Pendaftaran</h2>
+
+      <fieldset>
+        <legend>Data Pribadi</legend>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </fieldset>
+
+      <fieldset>
+        <legend>Keamanan</legend>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <label><input type="checkbox" name="remember" /> Ingat Saya</label>
+      </fieldset>
+
+      <button type="submit">Daftar Sekarang</button>
     </form>
   </body>
 </html>

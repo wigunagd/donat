@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi 2 - Selector</title>
+    <link rel="stylesheet" href="../css/2-selector.css" />
+  </head>
+  <body>
+    <h1>SELECTOR</h1>
+    <!-- Selector : CSS selector adalah sebuah pola yang digunakan untuk memilih elemen HTML yang ingin diberikan style. -->
+
+    <!-- 
+    Jenis-jenis Selector :
+        -. Element Selector
+        -. Class 
+        -. ID
+        -. Grouping 
+        -. Attribute
+        -. Descendant
+        -. Child Selector
+        -. Adjacent Selector
+        -. General Sibling Selector
+        -. Universal
+        -. Pseudo-class
+        -. Pseudo-element 
+    -->
+
+    <!-- 1. ELEMENT SELECTOR -->
+    <h2>1. Element Selector</h2>
+    <p>Lorem ipsum dolor sit</p>
+    <p>Lorem ipsum dolor sit amet</p>
+
+    <!-- 2. CLASS SELECTOR (.) -->
+    <h2>2. Class Selector (.)</h2>
+    <button class="submit">Kirim</button>
+
+    <!-- 3. ID SELECTOR (#) -->
+    <h2>3. ID Selector (#)</h2>
+    <button id="inputData">Kirim Data</button>
+
+    <!-- 4. GROUPING SELECTOR (,) -->
+    <h2>4. Grouping Selector (,)</h2>
+    <i>Lorem ipsum dolor sit amet.</i>
+    <b>Lorem ipsum dolor sit amet.</b>
+    <u>Lorem ipsum dolor sit amet.</u>
+
+    <!-- 5. ATTRIBUTE SELECTOR -->
+    <h2>5. ATTRIBUTE SELECTOR</h2>
+    <a href="">Belajar HTML</a>
+    <a>Belajar CSS</a>
+    <input type="text" />
+
+    <!-- 6. DESCENDANT SELECTOR -->
+    <h2>6. Descendant Selector</h2>
+    <div class="descendant">
+      <p>Lorem, ipsum dolor.</p>
+      <div>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <p>Lorem, ipsum dolor.</p>
+    </div>
+
+    <!-- 7. CHILD SELECTOR (>) -->
+    <h2>7. Child Selector</h2>
+    <div class="child">
+      <p>Lorem, ipsum dolor.</p>
+      <div>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <p>Lorem, ipsum dolor.</p>
+    </div>
+
+    <!-- 8. ADJACENT SIBLING SELECTOR (+) -->
+    <h2>8. Adjacent Sibling Selector</h2>
+    <div class="adjacent">
+      <p>Lorem, ipsum dolor.</p>
+      <h1>Hello</h1>
+      <p>Lorem, ipsum dolor.</p>
+      <div>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <p>Lorem, ipsum dolor.</p>
+      <p>Lorem, ipsum.</p>
+    </div>
+
+    <!-- 9. GENERAL SIBLING SELECTOR (~) -->
+    <h2>9. General Sibling Selector</h2>
+    <div class="general">
+      <p>Lorem, ipsum dolor. (1)</p>
+      <h1>Hello</h1>
+      <p>Lorem, ipsum dolor. (2)</p>
+      <div>
+        <p>Lorem, ipsum dolor. (3)</p>
+      </div>
+      <p>Lorem, ipsum dolor. (4)</p>
+      <p>Lorem, ipsum. (5)</p>
+    </div>
+
+    <!-- 10. UNIVERSAL SELECTOR -->
+    <h2>10. Universal Selector</h2>
+
+    <!-- 11. PSEUDO-CLASS SELECTOR -->
+    <h2>11. Pseudo-class Selector</h2>
+    <button class="pseudo">Klik saya</button>
+
+    <!-- 12. PSEUDO-ELEMENT SELECTOR -->
+    <h2>12. Pseudo-element Selector</h2>
+    <h4>Hello Guys</h4>
+    <h4>Hello Temen</h4>
+    <h4>Hello Kamu</h4>
+    <h4>Hello Hello</h4>
+  </body>
+</html>
