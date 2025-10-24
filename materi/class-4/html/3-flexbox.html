@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi 3 - Flexbox</title>
+    <link rel="stylesheet" href="../css/3-flexbox.css" />
+  </head>
+  <body>
+    <h1>FLEXIBLE BOX</h1>
+    <!-- 1. FLEX CONTAINER -->
+    <h2>1. FLEX CONTAINER</h2>
+    <div class="container">
+      <div class="kotak green">1</div>
+      <div class="kotak salmon">2</div>
+      <div class="kotak cyan">3</div>
+    </div>
+
+    <!-- 2. FLEX ITEMS -->
+    <!-- 
+      PROPERTY FLEX ITEMS:
+      -. ORDER
+      -. FLEX GROW
+      -. FLEX SHRINK
+      -. FLEX BASIS
+      -. FLEX
+      -. ALIGN SELF
+    -->
+    <h2>2. FLEX ITEMS</h2>
+    <div class="flex-items">
+      <div class="kotak green" style="flex-basis: 100px; align-self: normal">
+        1
+      </div>
+      <div class="kotak salmon" style="flex-basis: 200px; align-self: flex-end">
+        2
+      </div>
+      <div class="kotak cyan" style="flex-basis: 300px; align-self: flex-start">
+        3
+      </div>
+      <div class="kotak gray" style="flex-basis: 300px; align-self: center">
+        4
+      </div>
+    </div>
+    <!-- <div class="flex-items">
+      <div class="kotak green" style="flex-grow: 1">1</div>
+      <div class="kotak salmon" style="flex-grow: 2">2</div>
+      <div class="kotak cyan" style="flex-grow: 6">3</div>
+    </div> -->
+  </body>
+</html>

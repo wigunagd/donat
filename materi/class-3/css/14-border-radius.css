@@ -1,0 +1,38 @@
+body {
+  height: 500dvh;
+}
+
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.kotak2 {
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  /* border-radius : sudut kiri atas, sudut kanan atas, sudut kanan bawah, sudut kiri bawah */
+  border-radius: 10px 20px 30px 40px;
+  margin-bottom: 20px;
+}
+
+.kotak3 {
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  /* border-radius : sudut kiri atas, sudut kanan atas, sudut kanan bawah, sudut kiri bawah */
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.kotak4 {
+  width: 80px;
+  height: 28px;
+  background-color: salmon;
+  color: white;
+  border: none;
+  border-radius: 360px;
+}

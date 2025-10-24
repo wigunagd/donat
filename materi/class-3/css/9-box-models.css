@@ -1,0 +1,24 @@
+/* BOX MODEL */
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  text-align: center;
+  line-height: 100px;
+
+  /* BORDER */
+  /* border: ukuran_tebal tipe_border warna_border */
+  border: 10px solid black;
+
+  /* MARGIN */
+  margin-left: 50px;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  /* PADDING */
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}

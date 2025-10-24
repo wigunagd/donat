@@ -1,0 +1,48 @@
+/* 1. Pixels */
+p {
+  font-size: 30px;
+}
+
+/* 2. EM */
+div.em {
+  font-size: 5px;
+}
+
+div.em p.em {
+  font-size: 2em;
+}
+
+/* 3. REM */
+html {
+  font-size: 10px;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+/* 4. VH, VW, DVH, DVW */
+div.kotak {
+  width: 50vw;
+  height: 50vh;
+  background-color: salmon;
+}
+
+/* 5. CH */
+.input-ch {
+  width: 5ch;
+}
+
+/* 6. % */
+div.percent {
+  width: 500px;
+  background-color: black;
+}
+
+div.percent img {
+  width: 20%;
+}
+
+div.percent p {
+  display: inline-block;
+}

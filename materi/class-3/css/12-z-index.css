@@ -1,0 +1,31 @@
+.kotak {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.salmon {
+  background-color: salmon;
+  z-index: -20;
+  left: 140px;
+}
+
+.cyan {
+  background-color: cyan;
+  color: black;
+  z-index: -10;
+  left: 60px;
+}
+
+.green {
+  background-color: green;
+  z-index: -30;
+}
+
+.absolute {
+  position: absolute;
+}

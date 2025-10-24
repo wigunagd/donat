@@ -1,0 +1,31 @@
+.kotak {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* LINEAR GRADIEND */
+.linear {
+  /* 
+    linear-gradient(arah, warna1, warna2, warna...)
+  */
+  background: linear-gradient(to right, red, rgba(0, 0, 255, 0.3));
+}
+
+/* RADIAL GRADIENT */
+.radial {
+  /* 
+    radial-gradient(shape size at position, warna1, warna2, warna...)
+  */
+  background: radial-gradient(circle at center, red, blue);
+}
+
+/* CONIC GRADIENT */
+.conic {
+  /* 
+    conic-gradient(from angle, warna1, warna2, warna...)
+  */
+  background: conic-gradient(from 270deg, red, blue);
+}

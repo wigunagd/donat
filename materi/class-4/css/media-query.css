@@ -1,0 +1,49 @@
+.salmon {
+  background-color: salmon;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.green {
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.kotak {
+  width: 100px;
+  line-height: 100px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 744px) {
+  .container {
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 745px) and (max-width: 1999px) {
+  .container {
+    flex-direction: row;
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    flex-direction: row-reverse;
+    font-size: 100px;
+  }
+}

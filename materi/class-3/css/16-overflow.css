@@ -1,0 +1,6 @@
+.kotak {
+  width: 200px;
+  height: 400px;
+  background-color: salmon;
+  overflow: auto;
+}

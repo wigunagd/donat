@@ -1,0 +1,26 @@
+/* 1. Centering Elemen Menggunakan Margin Auto */
+.box {
+  width: 300px;
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* 2. Centering Elemen Menggunakan Flexbox */
+.box-flex {
+  width: 300px;
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/*  3. Centering Text Menggunakan text-align */
+p {
+  text-align: center;
+}
