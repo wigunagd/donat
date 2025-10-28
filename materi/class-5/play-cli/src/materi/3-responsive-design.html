@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi 3 - Responsive Design</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body>
+    <h1>RESPONSIVE DESIGN</h1>
+    <!-- 1. BREAKPOINTS RESPONSIVE -->
+    <h2>1. BREAKPOINTS RESPONSIVE</h2>
+    <div
+      class="bg-blue-500 sm:bg-green-800 md:bg-red-500 lg:bg-yellow-500 xl:bg-purple-600"
+    >
+      <p class="text-white p-4">
+        warna background berubah sesuai viewport layar
+      </p>
+    </div>
+
+    <!-- 2. RESPONSIVE FONT SIZE -->
+    <h2>2. RESPONSIVE FONT SIZE</h2>
+    <h1 class="text-base sm:text-lg md:text-2xl lg:text-4xl xl:text-6xl">
+      ukuran font elemen ini akan berubah sesuai dengan viewport layar
+    </h1>
+
+    <!-- 3. RESPONSIVE GRID -->
+    <h2>3. RESPONSIVE GRID</h2>
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
+      <div class="bg-blue-600 text-white p-4"></div>
+      <div class="bg-blue-600 text-white p-4"></div>
+      <div class="bg-blue-600 text-white p-4"></div>
+      <div class="bg-blue-600 text-white p-4"></div>
+    </div>
+
+    <!-- 4. HIDDEN ON SPECIFICS SCREENS -->
+    <h2>4. HIDDEN ON SPECIFICS SCREENS</h2>
+    <div class="bg-green-400 hidden sm:block p-4">
+      Elemen ini hanya muncul di layar (viewport) ketika layar lebih besar atau
+      sama dengan dari 640px
+    </div>
+
+    <div class="bg-green-400 block lg:hidden p-4 mt-10">
+      Elemen ini akan hilang dari layar (viewport) ketika layar lebih besar atau
+      sama dengan dari 1024px
+    </div>
+
+    <!-- 5. RESPONSIVE FLEXBOX -->
+    <h2>5. RESPONSIVE FLEXBOX</h2>
+    <div class="flex gap-2 flex-col sm:flex-row justify-center">
+      <div class="bg-blue-900 text-white p-4">Item 1</div>
+      <div class="bg-blue-900 text-white p-4">Item 2</div>
+      <div class="bg-blue-900 text-white p-4">Item 3</div>
+    </div>
+
+    <!-- 6. RESPONSIVE PADDING DAN MARGIN -->
+    <h2>6. RESPONSIVE PADDING DAN MARGIN</h2>
+    <div class="bg-gray-700 text-white p-4 sm:p-8 lg:p-12">
+      Konten ini akan memiliki padding yang berbeda berdasarkan viewport layar
+    </div>
+    <div class="bg-gray-700 text-white m-4 sm:m-8 lg:m-12">
+      Konten ini akan memiliki margin yang berbeda berdasarkan viewport layar
+    </div>
+
+    <!-- 7. RESPONSIVE CONTAINER -->
+    <h2>7. RESPONSIVE CONTAINER</h2>
+    <div class="container mx-auto bg-amber-400 p-4">
+      <h1 class="text-2xl text-center">Responsive Container</h1>
+    </div>
+
+    <!-- 8. ASPECT RATIO -->
+    <h2>8. ASPECT RATIO</h2>
+    <div class="w-full">
+      <img src="../assets/img1.jpg" alt="" class="object-cover aspect-9/16" />
+    </div>
+  </body>
+</html>

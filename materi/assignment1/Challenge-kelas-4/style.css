@@ -44,12 +44,12 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.3s ease;
     z-index: 10;
 }
 
 .card:hover {
-    transform: translateY(-10px) scale(1.02);
+    transform: translateY(-10px) scale(1.05);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
     z-index: 15;
 }
